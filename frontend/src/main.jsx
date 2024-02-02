@@ -7,16 +7,17 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import ReactDOM from "react-dom/client";
-// import Login, { authenticate } from "./pages/Login/Loginpage";
 import RootLayout from "./RootLayout";
-// import App from "./App";
+import Homepage from "./pages/homepage/homepage";
+import Login, { authenticate } from "./pages/login/login";
+import Profil from "./pages/profil/profil";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
-      {/* <Route path="home" element={<CardsList />} />
-      <Route path="profil" element={<Profiluser />} />
-      <Route path="login" element={<Login />} action={authenticate} /> */}
+      <Route index element={<Homepage />} />
+      <Route path="/login" element={<Login />} action={authenticate} />
+      <Route path="/profil" element={<Profil />} />
     </Route>
   )
 );

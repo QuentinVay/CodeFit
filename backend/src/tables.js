@@ -5,10 +5,14 @@
 // Import the manager modules responsible for handling data operations on the tables
 const userManager = require("./models/userManager");
 const gymManager = require("./models/gymManager");
+const coachManager = require("./models/coachManager");
+const usergymManager = require("./models/usergymManager");
 
 const managers = [
   userManager,
   gymManager,
+  coachManager,
+  usergymManager,
   // Add other managers here
 ];
 
