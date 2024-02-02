@@ -1,0 +1,68 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  max-height: 48px;
+  border-bottom: 2px solid white;
+
+  .navbar-logo {
+    width: 100%;
+    height: auto;
+    max-width: 40px;
+  }
+
+  .navbar-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    position: absolute;
+    color: white;
+    cursor: pointer;
+    left: 50%;
+    transform: translateX(-50%);
+
+    &:hover {
+      background-color: #61dafb;
+      border-radius: 10px;
+      padding: 4px 16px;
+    }
+  }
+
+  .navbar-auth {
+    display: flex;
+    gap: 10px;
+  }
+
+  .navbar-button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #61dafb;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #4fa3d1;
+    }
+  }
+
+  .button-profil {
+    padding: 8px 16px;
+    border: none;
+    background-color: #61dafb;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #4fa3d1;
+    }
+  }
+}

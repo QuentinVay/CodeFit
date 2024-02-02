@@ -1,0 +1,209 @@
+.contain-profilpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  .contain-profilpage-body {
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    color: white;
+
+    .contain-profilpage-header {
+      width: 100%;
+      height: 50px;
+      background: white;
+      display: flex;
+      align-items: end;
+      font-size: 12px;
+    }
+    .contain-profilpage-main {
+      margin: 16px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .main-body-two {
+        border: 2px solid white;
+        display: flex;
+        margin: 24px;
+        justify-content: center;
+      }
+
+      .side-profilpage {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        width: 50%;
+        gap: 2rem;
+
+        .side-name {
+          font-size: 24px;
+          font-weight: 700;
+          text-align: center;
+        }
+        .side-details {
+          font-size: 16px;
+        }
+        .side-navigation {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          gap: 24px;
+          width: 100%;
+          align-items: left;
+          font-size: 12px;
+
+          .side-links {
+            padding: 8px;
+            border: 2px solid white;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .btn-link {
+              height: 24px;
+              font-size: 11px;
+              color: white;
+              cursor: pointer;
+            }
+          }
+        }
+        .side-button {
+          width: 100%;
+          height: 54px;
+          background: black;
+        }
+        .btn-deconnexion {
+          display: flex;
+          align-items: center;
+          height: 54px;
+          width: 100%;
+          padding-left: 1rem;
+          font-size: 11px;
+          font-weight: 600;
+          color: white;
+        }
+        .btn-deconnexion:hover {
+          background: #e32847;
+          cursor: pointer;
+        }
+      }
+
+      .body-profilpage {
+        width: 70%;
+        margin: 16px;
+        border: 2px solid white;
+
+        .main-title h2 {
+          height: 50px;
+          font-size: 36px;
+          font-weight: 600;
+          margin: 16px;
+        }
+
+        .main-body {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          padding: 16px;
+
+          .main-contain-button {
+            width: 100%;
+            display: flex;
+
+            .btn-action {
+              font-size: 12px;
+              font-weight: 700;
+              color: white;
+              border: 2px solid white;
+              border-radius: 10px;
+            }
+            .btn-action:hover {
+              background: #e32847;
+              cursor: pointer;
+            }
+          }
+
+          .main-first {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+
+            .main-contain-action {
+              width: 50%;
+              height: 474px;
+              display: flex;
+              flex-direction: column;
+
+              img {
+                width: 100%;
+                height: 50%;
+                object-fit: contain;
+                padding: 4px;
+              }
+
+              .image-action-two {
+                margin: 8px;
+                height: 100%;
+              }
+            }
+
+            .main-contain-form-login {
+              display: flex;
+              flex-direction: column;
+              margin-top: 2rem;
+              gap: 38px;
+              width: 50%;
+              margin-left: 1rem;
+
+              .row-form-login {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 3em;
+
+                .label-form-input {
+                  font-size: 10px;
+                  max-width: 400px;
+                }
+
+                input {
+                  font-weight: 900;
+                  height: 2rem;
+                  outline: none;
+                  border: none;
+                  max-width: 400px;
+                }
+              }
+            }
+          }
+          .btn-action-modif {
+            align-items: center;
+            font-weight: 700;
+            cursor: pointer;
+            color: white;
+            border-radius: 10px;
+            border: 2px solid white;
+            padding: 16px;
+            margin: 16px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.hackeur {
+  display: flex;
+  justify-content: center;
+  font-size: 100px;
+  align-items: center;
+  margin-top: 200px;
+}
